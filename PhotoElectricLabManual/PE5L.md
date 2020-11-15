@@ -143,7 +143,7 @@ The web-portal for this experiment enables you to press and turn all the same bu
 
 :::Figure:Figure
 
-![ScreenShot](imgs/ScreenShot.jpg)
+![ScreenShot](imgs/ScreenShot2.png)
 
 Note the timer immediately below the video feed (in red).  When it runs out, the lab equipment will reset to its initial configuration.
 :::
