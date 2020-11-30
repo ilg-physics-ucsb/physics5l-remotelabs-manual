@@ -78,7 +78,7 @@ The horizontal axis is wavelength in Ångströms ( $1$Å $=10^{-10}$m),  the ver
 * **A wheel of interference filters** - each of which transmits light only in a narrow range of wavelengths, $\lambda = c/\nu$,  and blocks light of all other wavelengths.  Using different filters allows you to change the energy, $h\nu$, of the light that falls on the photocathode.
 
 :::Figure:Figure
-![lamp](imgs/FilterWheel.jpg)
+![filter](imgs/FilterWheelScaled.png)
 
  You can view these individual filters' transmission spectra on the web-portal for this experiment. 
 :::
@@ -86,7 +86,7 @@ The horizontal axis is wavelength in Ångströms ( $1$Å $=10^{-10}$m),  the ver
 * **A wheel of neutral density (ND) filters** - each of which attenuates light uniformly across all wavelengths.  Using different ND filters allows you to change the intensity of the light (i.e., the number of photons per unit area) that falls on the photocathode.
 
 :::Figure:Figure
-![]()
+![NDfilter](imgs/densityFilterWheelScaledCropped.png)
 
  You can view these individual filters' transmission spectra on the web-portal for this experiment. 
 :::
@@ -154,7 +154,7 @@ Note the timer immediately below the video feed (in red).  When it runs out, the
 When you first open the portal the video feed will be dark.  
 
 :::Figure:Figure
-![ambientlight](imgs/ambientlight.jpg)
+![ambientlight](imgs/Centervideo.png)
 :::
 
 * Click on the central square of the switch in the upper right to turn on the background/ambient light. 
@@ -166,19 +166,19 @@ The ambient light lets you observe the setup and better see the machinery respon
 A toggle switch in the upper left controls the power to the Hg lamp. 
 
 :::Figure:Figure
-![lamp](imgs/lamp.jpg)
+![lamp](imgs/Leftcontrols_lamp.png)
 :::
 
 * Click the image of the lamp immediately below the toggle switch to access the lamp's user manual.  
 
 :::Figure:Figure
-![graph](imgs/graph.jpg)
+![graph](imgs/Leftcontrols_graph.png)
 :::
 
 * Click the plot below that to view a high-resolution image of the lamp's emission spectrum. 
 
 :::Figure:Figure
-![filter](imgs/filter.jpg)
+![filter](imgs/Leftcontrols_transmission.png)
 :::
 
 * Click the photo of a filter to view the transmission spectrum provided by its manufacturer.
@@ -188,7 +188,7 @@ Using the emission spectrum of the lamp and the transmission spectra of the filt
 :::
 
 :::Figure:Figure
-![filter2](imgs/filter2.jpg)
+![filter2](imgs/Leftcontrols_filterwheel.png)
 :::
 
 * Click the corresponding filter in the filter wheel and watch the wheel rotate to put that particular filter in between the Hg lamp and the phototube.
@@ -324,5 +324,12 @@ $$
 \frac{|h_\mathrm{measured}-h_\mathrm{accepted}|}{h_\mathrm{accepted}}\,.
 $$
 Give your answer as a percentage.
+:::
+:::
+
+::: Exercise
+There are five ND filters which attenuate the light at all frequencies equally. By placing these different filters between the Hg lamp and the phototube (see Exercise 1, Left Controls), you can measure $V_s$ as a function of the light's intensity.
+::: Question
+Design and perform an experiment to measure $V_s$ as a function of intensity.
 :::
 :::
