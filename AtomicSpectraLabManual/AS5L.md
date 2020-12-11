@@ -2,8 +2,8 @@
 # Atomic Spectra ![icon](imgs/ASicon.png)
 ---
 
-In this lab you will observe the visible spectrum of Hydrogen and use it to measure the Rydberg constant. 
-Then you will use the spectrum of two unknown sources to determine their atomic content.
+**In this lab you will observe the visible spectrum of Hydrogen and use it to measure the Rydberg constant. 
+Then you will use the spectrum of two unknown sources to determine their atomic content.**
 
 Background
 ---------------------
@@ -36,20 +36,20 @@ In this lab, you will measure the visible spectrum of Hydrogen as Balmer origina
 
 Note that the Rydberg constant applies only to Hydrogen. Other atoms have a similar $1/n^2$ structure to the equation that describes their spectra, but with a different coefficient. Each element’s spectrum is uniquely characteristic, so spectra are often used to identify the elemental composition of a sample (or a star![^2]). 
 
-After you completing your measurements of the Hydrogen spectra, you will measure the visible spectra of two unknown samples and use them to identify each sample's elemental composition.
+**After you completing your measurements of the Hydrogen spectra, you will measure the visible spectra of two unknown samples and use them to identify each sample's elemental composition.**
 
 
 
 Instruments
 ---------------------
 The apparatus used in this lab consists of
-* **a spectrum tube** -  a special kind of gas-discharge lamp that shapes the light emitted by a gas to optimally illuminate a narrow slit
+* **A spectrum tube** -  a special kind of gas-discharge lamp that shapes the light emitted by a gas to optimally illuminate a narrow slit
 
 :::Figure:Figure
 ![lamp](imgs/LampTube.jpg)
 :::
 
-* **a carousel** - that rotates to power your choice of three spectrum tubes.  One contains Hydrogen gas and the other two contain gases you will identify based on their spectra. 
+* **A carousel** - that rotates to power your choice of three spectrum tubes.  One contains Hydrogen gas and the other two contain gases you will identify based on their spectra. 
 
 :::Figure:Figure
 ![carousel](imgs/Carousel.jpg)
@@ -57,7 +57,7 @@ The apparatus used in this lab consists of
 You can see a top-down view of the carousel at the very right of the "overview" live feed, but the view is complicated and obstructed by various 3D-printed parts that help position and motorize the apparatus.  A mirror just to the right of center near the top of the "overview" feed reflects a sideview that clear shows when a lamp is on, off and/or rotating into position.
 :::
 
-* **a diffraction grating** - an optical element that uses the phenomenon of interference to send light of different wavelengths in different directions.
+* **A diffraction grating** - an optical element that uses the phenomenon of interference to send light of different wavelengths in different directions.
 
 :::Figure:Figure
 ![grating](imgs/DiffractionGrating.jpg)
@@ -81,7 +81,7 @@ Note that this equation applies only if the collimated light is "normally incide
 What is the spacing $d$ for the diffraction grating?  (Hint: See Figure 4.)
 :::
 
-* **a spectroscope** -  which sends collimated light onto the diffraction grating and enables you to measure the various angles at which the light that passes through the grating constructively interferes.
+* **A spectroscope** -  which sends collimated light onto the diffraction grating and enables you to measure the various angles at which the light that passes through the grating constructively interferes.
 
 :::Figure:Figure
 ![spectroscope](imgs/spectrometerPhoto.jpg)
@@ -115,20 +115,20 @@ Cartoons of two different measurements are shown in Figure 7 to illustrate the p
 What is the angular position indicated by the vernier scales in the photo in the middle of Figure 7? 
 :::
 
-The precision of these $\theta$ readings is limited by the one arc minute granularity of the Vernier scale, but it is possible to make mistakes in reading or calculating the values. Here are a few things you can do to reduce the chance of such mistakes and their impact:
+The precision of these $\theta$ readings is limited by the one arc minute granularity of the Vernier scale, but it is possible to make mistakes in reading or calculating the values.** Here are a few things you can do to reduce the chance of such mistakes and their impact:**
 1. Have someone else (*e.g.* your lab partner) make the same reading (without telling them what you got) and compare. 
 2. Recall that the position of the telescope can be read off of scales situated on either side of the spectrometer. The angles recorded by the two scales should differ by exactly $180^\circ$. Read and record both. If, after correcting for the $180^\circ$ difference, you find that their values differ by more than the $0.005^\circ$ precision of the scales, something is wrong - if not with your readings, then with the spectrometer itself (*e.g., warping of the scales). This approach of making multiple, independent measurements of the same quantity is always a good idea and helps validate your results.
 3. Record your raw readings in degrees and arc minutes, and then calculate the corresponding decimal degree values. This will help you disentangle any calculation errors that may occur. While the calculations in this case are not complicated, and the consequences of a mistake are small, this sort of fastidious data recording is a good habit to develop for professional laboratory work, when both the chances and consequences of mistakes increase.
 
 Finally, be aware that the Verniers read angular position but the location of $0^\circ$ is arbitrary. 
 
-In order to determine the wavelength using $d\sin\theta = \lambda$, where $\theta$ is the angle between maxima, you need to measure two angles and subtract, just like measuring a length requires two position measurements. You could do this by measuring the angular position of the central maximum, which we can call $\theta_0$ , and the angular position of the $m = +1$ maximum, which we can call $\theta_{+1}$. Then $\lambda = d\sin(\theta_{+1}-\theta_0)$. Similarly, you could measure the angular position of the $m = +2$ maximum and use $2\lambda = d \sin (\theta_{+2}-\theta_0)$ or $\lambda = d \sin (\theta_{+2}-\theta_{+1})$. Finally, note that the direction in which the angles increase or decrease on the scale is arbitrary, so you should use the absolute value of the differences.
+In order to determine the wavelength using $d\sin\theta = \lambda$, where $\theta$ is the angle between maxima, you need to measure two angles and subtract, just like measuring a length requires two position measurements. You could do this by measuring the angular position of the central maximum, which we can call $\theta_0$ , and the angular position of the $m = +1$ maximum, which we can call $\theta_{+1}$. Then $\lambda = d\sin(\theta_{+1}-\theta_0)$. Similarly, you could measure the angular position of the $m = +2$ maximum and use $2\lambda = d \sin (\theta_{+2}-\theta_0)$ or $\lambda = d \sin (\theta_{+2}-\theta_{+1})$. **Finally, note that the direction in which the angles increase or decrease on the scale is arbitrary, so you should use the absolute value of the differences.**
 
 
 
 Approach
 ---------------------
-Using the instruments above, you will determine the wavelengths of light emitted by three different gasses.
+**Using the instruments above, you will determine the wavelengths of light emitted by three different gasses.**
 
 The web-portal for this experiment enables you to manipulate the spectroscope, see the lines and read the verniers just as you would in person.  
 
@@ -145,7 +145,9 @@ When you first open the portal the video feed will be dark.  A row of blue butto
 OVERVIEW gives a top-down view of the apparatus, centered on the diffraction grating; 
 EYEPIECE shows the view through the eyepiece; 
 VERNIER1 and VERNIER2 each look at one of the two Vernier scales. 
-
+::: Figure::: Figure
+![Bluebuttons](imgs/Tabs.png)
+:::
 * Click on OVERVIEW, then click on the central square of the white switch to the *left* of the video display to turn on the ambient light. 
 
 The ambient light lets you observe the setup and better see the machinery respond to your clicks. 
@@ -158,6 +160,10 @@ Ambient light reflecting off of the diffraction grating lights up the circular f
 
 :::Question
 What is the angular position of the telescope?
+:::
+
+::: Figure::: Figure
+![Schematic](imgs/Schematic.png)
 :::
 
 Above the camera control buttons is a schematic of the spectrometer.  Green, pink and yellow arrows in the schematic enable you to move the telescope, grating and lamp, respectively. Correspondingly colored radio buttons allow you to change the amount moved per click. 
