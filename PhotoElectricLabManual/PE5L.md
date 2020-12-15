@@ -57,7 +57,6 @@ Since we divided through by $e$, the work function $\phi$ has units of volts.
 This equation is a straight line on a graph of $V_s(\nu)$, with a slope of $h/e$ and a $y$-intercept of $\phi$. 
 By measuring $V_s$ for different frequencies of light and fitting such a line we can determine both Planck's constant and the metal's work function.
 
-[^1] The quantum explanation for the photoelectric effect is described concisely in a three page section of Einstein's paper, Ann. Physik 17, 132 (1905), and was the reason for his subsequently being awarded the Nobel Prize.
 
 Instruments
 ---------------------
@@ -131,9 +130,6 @@ You can't see the phototube on the live feed for this experiment because it is m
 Manuals for these meters are available in PDF format on the web-portal for this experiment. 
 :::
 
-[^2]: Removing gas particles from the space between the electrodes greatly reduces the chances that ejected electrons will collide with anything on their way from the cathode to the anode. The vacuum isn’t perfect, of course, but it is good enough that some of the ejected electrons have a good chance of reaching the anode without losing any energy...which is crucial for measuring the maximum kinetic energy of the ejected electrons.
-
-[^3]: The photocathode's inner surface is coated with a special alloy of Cesium (Cs) and Antimony (Sb) metals that has electrons which are not very tightly bound, and so can be ejected by relatively low-energy (*i.e.*, visible) photons. 
 
 Approach
 ---------------------
