@@ -280,7 +280,7 @@ You may see a background of colors in addition to the main bright lines. This ba
 
 ::: Exercise
 ### Data Analysis
-In a spreadsheet, calculate the $\theta_m$ values of the various lines from the angular positions you measured. 
+In a spreadsheet, calculate the $\theta_m$ values of the various lines from the angular positions you measured. Recall that $\theta_m$  = $\theta$ central maximum - $\theta$ m =1 lines.
 
 :::Question
 Which angular positions did you subtract for each value of $\theta_m$?
@@ -296,7 +296,10 @@ What is the wavelength you measured for the $n=3$ Balmer line?
 What are the wavelengths you measured for the $n={4,5,6}$ Balmer lines?  
 :::
 
-Look at Equation 1 above.  
+Look at Equation 1 :
+$$
+\frac{1}{\lambda} = R\left(\frac{1}{2^2}-\frac{1}{n^2}\right); \,\,\,\mathrm{for}\,\,n>2.
+$$
 
 :::Question
 To make a plot of your data that will let you fit a straight line whose slope will be the Rybderg constant, $R$, what should you plot on the $y$-axis?  What should you plot on the $x$-axis?
