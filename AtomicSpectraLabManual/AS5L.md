@@ -1,5 +1,5 @@
 
-# AAtomic Spectra ![icon](imgs/ASicon.png)
+# Atomic Spectra ![icon](imgs/ASicon.png)
 ---
 
 **In this lab you will observe the visible spectrum of Hydrogen and use it to measure the Rydberg constant. 
@@ -163,7 +163,7 @@ What is the angular position of the telescope?
 :::
 
 ::: Figure::: Figure
-![Schematic](imgs/Schematic.png)
+![Schematic](imgs/SchematicNew.png)
 :::
 
 Above the camera control buttons is a schematic of the spectrometer.  Green, pink and yellow arrows in the schematic enable you to move the telescope, grating and lamp, respectively. Correspondingly colored radio buttons allow you to change the amount moved per click. 
@@ -199,7 +199,7 @@ You should see the illuminated slit near the center of the field of view.
 
 Notice that two new controls appear when you select the Eyepiece view.  
 :::Figure:Figure
-![Eyepiece](imgs/A1_Eyepiece.jpg)
+![Eyepiece](imgs/A1_Eyepiece.png)
 :::
 
 On the left is a button that lets you position a set of crosshairs over the live feed.  
@@ -217,8 +217,14 @@ How many pixels wide is the slit in each setting? (Hint: use the crosshairs.)
 * Adjust the slit to its narrowest setting.
 * Turn off the ambient light.
 * Click on the central square of the black switch to the *right* of the video display to toggle the portal's background from white to black and back again.
+* Click on the blue box below the slit photo called CAMERA CONTROLS to view/alter the camera settings.  
+:::Question
+What are the original values of the various camera settings?
+:::
+* Drag the sliders to change the settings and see how the image of the slit is affected.
+* Remember to put the camera settings back to their original values before switching to the other cameras, or the quality of those other views may be reduced.
 
-Keep in mind that this can be helpful when viewing very dim lines.  
+Keep in mind that increasing the slit width, adjusting the camera settings and turning the background black may be helpful when viewing very dim lines.  
 :::
 
 Measurement
