@@ -54,7 +54,7 @@ The apparatus used in this lab consists of
 :::Figure:Figure
 ![carousel](imgs/Carousel.jpg)
 
-You can see a top-down view of the carousel at the very right of the "overview" live feed, but the view is complicated and obstructed by various 3D-printed parts that help position and motorize the apparatus.  A mirror just to the right of center near the top of the "overview" feed reflects a sideview that clear shows when a lamp is on, off and/or rotating into position.
+You can see a top-down view of the carousel at the very right of the "overview" live feed, but the view is complicated and obstructed by various 3D-printed parts that help position and motorize the apparatus.  A mirror just to the right of center near the top of the "overview" feed reflects a sideview that clearly shows when a lamp is on, off and/or rotating into position.
 :::
 
 * **A diffraction grating** - an optical element that uses the phenomenon of interference to send light of different wavelengths in different directions.
@@ -104,7 +104,7 @@ The telescope swings to different angles around the grating (A) and images the l
 
 The angular position of the telescope is read off of scales (I,J) situated on either side of the spectrometer. The scales measure degrees down to one arc minute with Vernier markings. 
  
-Using a Vernier scale takes a bit of explanation and some practice. There are some good extended descriptions online (*e.g.* [in Wikipedia](https://en.wikipedia.org/wiki/Vernier_scale)), so here we’ll introduce it with a few examples specific to the scales you will be using. The scales on the spectroscope consist two sets of uniformly spaced lines that are arranged so that they slide past each other. The lower set's lines mark each half degree, while the upper one's (which are very slightly more closely spaced) have markings corresponding to 0-30 arc minutes. The two scales are used together. 
+Using a Vernier scale takes a bit of explanation and some practice. There are some good extended descriptions online (*e.g.* [in Wikipedia](https://en.wikipedia.org/wiki/Vernier_scale)), so here we’ll introduce it with a few examples specific to the scales you will be using. The scales on the spectroscope consist of two sets of uniformly spaced lines that are arranged so that they slide past each other. The lower set's lines mark each half degree, while the upper one's (which are very slightly more closely spaced) have markings corresponding to 0-30 arc minutes. The two scales are used together. 
 
 :::Figure:Figure
 ![vernierLeft](imgs/verniers.jpg)
@@ -134,7 +134,7 @@ The web-portal for this experiment enables you to manipulate the spectroscope, s
 
 :::Figure:Figure
 
-![Overview](imgs/A1_OverviewBorder.jpg)
+![Overview](imgs/A1_OverviewBorder.png)
 
 Note the timer at the top of the portal (in red).  When it runs out, the lab equipment will reset to its initial configuration.
 :::
@@ -167,6 +167,8 @@ What is the angular position of the telescope?
 :::
 
 Above the camera control buttons is a schematic of the spectrometer.  Green, pink and yellow arrows in the schematic enable you to move the telescope, grating and lamp, respectively. Correspondingly colored radio buttons allow you to change the amount moved per click. 
+
+It can be difficult to see/click on the arrows and radio buttons while also viewing the live feed because of a need to scroll the page up and down.  A button on the left, labeled "Moveable Schematic", opens a  window with just the arrow and radio buttons that you can position wheverever you want on your screen.
 
 * Use the green arrows and radio buttons to move the telescope until the VERNIER reading is within 1° of 45° or 225°, whichever is closer to your starting point.
 
@@ -260,6 +262,12 @@ What is the angular position of the telescope?  Remember to record the readings 
 
 * Move the telescope in the direction of the brighter lines. 
 * One at a time, bring each line to the same horizontal position the central maximum was previously at (as indicated by the crosshairs).
+* Note it can be difficult and time consuming to position a line at an exact horizontal position. One way around this is to determine the angular position of a line that is at a slightly different horizontal position than the central maximum was, and record that horizontal position difference, $\Delta$, in pixels.  Then convert $\Delta$ from pixels to degrees and and correct the angular reading accordingly.  
+* To figure out the conversion between pixels and degrees, simply note by how much the vernier readings change when a line moves by just a little bit in the eyepiece view.
+
+:::Question
+What is the coversion between pixels and degrees?  Show your work.
+:::
 
 :::Question
 What are the colors and angular positions of each of the four $m=1$ lines? Remember to record the readings from both VERNIER1 and VERNIER2.
@@ -272,7 +280,7 @@ Can you see any of the $m=2$ lines?  Note the angular position and color of any 
 * Move the telescope back in the other direction and and find the $m=-1$ lines.
 
 :::Question
-What are the colors and angular positions of the $m=-1$ lines that you can see?  Remember to record the readings from both VERNIER1 and VERNIER2.
+What are the colors and angular positions of the $m=-1$ lines that you can see?  Remember to record the readings from both VERNIER1 and VERNIER2 and to properly account for any $\Delta$ in the eyepiece camera view.
 :::
 ::::
 
@@ -280,13 +288,14 @@ You may see a background of colors in addition to the main bright lines. This ba
 
 ::: Exercise
 ### Data Analysis
-In a spreadsheet, calculate the $\theta_m$ values of the various lines from the angular positions you measured. Recall that $\theta_m$  = $\theta$ central maximum - $\theta$ m =1 lines.
+In a spreadsheet, calculate the $\theta_m$ values of the various lines from the angular positions you measured. Recall that $\theta_m$  = $\theta_\mathrm{central\, maximum} - \theta_\mathrm{line}$ .
 
 :::Question
-Which angular positions did you subtract for each value of $\theta_m$?
+Which angular positions did you subtract for each value of $\theta_m$? 
 :::
+$\Rightarrow$ **Include this well-formatted table in your notes.** $\Leftarrow$
 
-Using the $\theta_m$ values you calculated and the condition for constructive interference (given in the diffraction grating section above), calculate the wavelengths of each of the Balmer lines.
+Using the $\theta_m$ values you calculated and the condition for constructive interference (given in the diffraction grating section above), calculate the wavelength of each of the Balmer lines.
 
 :::Question
 What is the wavelength you measured for the $n=3$ Balmer line?  
@@ -305,7 +314,7 @@ $$
 To make a plot of your data that will let you fit a straight line whose slope will be the Rybderg constant, $R$, what should you plot on the $y$-axis?  What should you plot on the $x$-axis?
 :::
 
-$\Rightarrow$**Make this the well-formatted plot you submit for grading. **$\Leftarrow$
+$\Rightarrow$ **Include this well-formatted plot in your notes.** $\Leftarrow$
 
 :::Question
 What is the value of the Rydberg constant indicated by your data? 
