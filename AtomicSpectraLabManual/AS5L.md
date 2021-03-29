@@ -1,5 +1,5 @@
 
-# Atomic Spectra ![icon](imgs/ASicon.png)
+# AAtomic Spectra ![icon](imgs/ASicon.png)
 ---
 
 **In this lab you will observe the visible spectrum of Hydrogen and use it to measure the Rydberg constant. 
