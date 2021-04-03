@@ -208,7 +208,7 @@ On the left is a button that lets you position a set of crosshairs over the live
 * Click again to release and have them follow your cursor again.  
 The coordinates of the center of the crosshairs are displayed in the upper left corner of the live feed.
 
-On the right is a photo of the slit with green arrows that let you change its width among three settings.  
+On the right is a photo of the slit with green arrows that let you change its width among three positions when you use the "coarse" setting.  
 
 :::Question
 How many pixels wide is the slit in each setting? (Hint: use the crosshairs.)
@@ -282,7 +282,7 @@ What are the colors and angular positions of each of the four $m=1$ lines? Remem
 :::Question
 Can you see any of the $m=2$ lines?  Note the angular position and color of any you can see. Remember to record the readings from both VERNIER1 and VERNIER2.
 :::
-
+$\Rightarrow$ **Make sure your data appears in a well-formatted table in your notes.** $\Leftarrow$
 * Move the telescope back in the other direction and and find the $m=-1$ lines.
 
 :::Question
@@ -299,7 +299,7 @@ In a spreadsheet, calculate the $\theta_m$ values of the various lines from the 
 :::Question
 Which angular positions did you subtract for each value of $\theta_m$? 
 :::
-$\Rightarrow$ **Include this well-formatted table in your notes.** $\Leftarrow$
+$\Rightarrow$ **Include this as a well-formatted table in your notes.** $\Leftarrow$
 
 Using the $\theta_m$ values you calculated and the condition for constructive interference (given in the diffraction grating section above), calculate the wavelength of each of the Balmer lines.
 
