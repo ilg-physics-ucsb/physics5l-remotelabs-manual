@@ -117,19 +117,19 @@ The accelerating voltage comes from
 * **a DC power supply** - set to provide  40V .
 
 :::Figure:Figure
-![DC Power Supply](imgs/DCPowerSupply.jpg) 
+![DC Power Supply](imgs/PowerSupplyON.jpg) 
 
 :::
 
 The retarding voltage comes from 
-* **a D-cell battery** -  made to provide 1.3 V.
+* **a D-cell battery** -  rated to provide 1.5 V.
 
 :::Figure:Figure
 ![Battery](imgs/Batteries.png) 
 
 :::
 
-*  In both cases, a variable resistor – also known as a *potentiometer* – is used to adjust the corresponding voltage.
+*  In both cases, a variable resistor – also known as a *potentiometer* or "pot" – is used to adjust the corresponding voltage.
 
 :::Figure:Figure
 ![potsPhoto](imgs/potsPhoto_cropped-small.jpg)
@@ -145,12 +145,12 @@ The retarding voltage comes from
 The manual for this meter is available in PDF format on the web-portal for this experiment. 
 :::
 
-Here is the **circuit diagram** for the entire apparatus.  Note that the circuit is designed to hold the anode at a more negative potential than the cathode. 
+Here is the **circuit diagram** for the entire apparatus.  
  
 :::Figure:Figure
 ![circuitSchematic](imgs/FranckHertzDiagram.jpg)
 
- Can you identify the various components and how they are connected?
+Note that the cathode is held at a more negative potential than the anode by the power supply, and the anode is held above ground by the battery. 
 :::
 
     
@@ -161,16 +161,35 @@ Approach
 ---------------------
 Using the instruments above,** you will measure the potential difference between successive minima in the current that arrives at the collection eletrode as you vary the accerating voltage imposed between the anode and the cathode (as explained in the Background section).  **
 
-The web-portal for this experiment enables you to press and turn all the same buttons and knobs as you would in person, and observe the effects of your actions through four different live video feeds, each aimed at the apparatus from a different vantage point.  The video feed is displayed at the center of the portal.  Controls for the knobs and buttons are distributed around it, along with links to helpful information.   A timer immediately above the video feed (in red) limits your time on the apparatus to 3 hours. When it runs out, the lab equipment will reset to its initial configuration.
+The web-portal for this experiment enables you to press and turn all the same buttons and knobs as you would in person, and observe the effects of your actions through four different live video feeds, each aimed at the apparatus from a different vantage point.  The video feed is displayed at the center of the portal.  Controls for the switches, knobs, and buttons are distributed around the video feed, along with links to helpful information.   A timer immediately above the video feed (in red) limits your time on the apparatus to 3 hours. When it runs out, the lab equipment will reset to its initial configuration.
 
-You can switch between different views of the apparatus by clicking on one of the four blue buttons immediately below the timer and above the display.  
+You can switch between different views of the apparatus by clicking on one of the four blue buttons immediately below the timer and above the display.  As the display changes, so do the the images and controls that surround it.
+
+The Heat camera provides a top-down view of the large variac on the right, and of the oven on the left.  On top of the oven is the readout dial of a thermometer  that reports its internal temperature.  Around the live feed you will find a power switch you can click to turn the oven on or off and arrows you can click to turn the variac knob in either coarse or fine increments, as specified by the radio buttons.  
 
 :::Figure:Figure
 
 ![ScreenShot](imgs/ScreenShotHeat.png)
 
 :::
+The Tube camera that looks inside the oven at the glass tube where the electron emissions and collisions will take place.  It  has a purplish color because it is an infra-red camera that illuminates the otherwise dark oven with a pair of infra-red lamps. The icon representation of the tube Click on the close-up of the tube in upper right for an annotated photo.
 
+:::Figure:Figure
+
+![ScreenShot](imgs/ScreenShotTube.png)
+
+:::
+
+The Pots camera looks down on a multimeter that measures $V_r$, on the right, and a control box, on the left.  The control box has a switch and knob that control the filament variac, and, near the bottom of the screen, two potentiometers that control $V_a$ and $V_r$.  
+
+:::Figure:Figure
+
+![ScreenShot](imgs/ScreenShotPots.png)
+
+:::
+
+
+TheData camera view is where most data collection will take place. Here you have an electrometer, a voltagesupply forVa, and a multimeter forVa. You can controlVausing the knob, turn on the power supply, andcontrol the electrometer settings.
 
 
 :::Exercise - Get familiar with the v
