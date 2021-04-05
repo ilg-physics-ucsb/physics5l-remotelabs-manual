@@ -165,104 +165,64 @@ The web-portal for this experiment enables you to press and turn all the same bu
 
 You can switch between different views of the apparatus by clicking on one of the four blue buttons immediately below the timer and above the display.  As the display changes, so do the the images and controls that surround it.
 
-The Heat camera provides a top-down view of the large variac on the right, and of the oven on the left.  On top of the oven is the readout dial of a thermometer  that reports its internal temperature.  Around the live feed you will find a power switch you can click to turn the oven on or off and arrows you can click to turn the variac knob in either coarse or fine increments, as specified by the radio buttons.  
+The HEAT camera provides a top-down view of the large variac on the right, and of the oven on the left.  On top of the oven is the readout dial of a thermometer  that reports its internal temperature.  Around the live feed you will find a power switch you can click to turn the oven on and off and arrows you can click to turn the variac knob in either coarse or fine increments, as specified by the radio buttons.  
 
 :::Figure:Figure
 
-![ScreenShot](imgs/ScreenShotHeat.png)
+![ScreenShotHEAT](imgs/ScreenShotHeat.png)
 
 :::
-The Tube camera that looks inside the oven at the glass tube where the electron emissions and collisions will take place.  It  has a purplish color because it is an infra-red camera that illuminates the otherwise dark oven with a pair of infra-red lamps. The icon representation of the tube Click on the close-up of the tube in upper right for an annotated photo.
+The TUBE camera that looks inside the oven at the glass tube where the electron emissions and collisions will take place.  It  has a purplish color because it is an infra-red camera that illuminates the otherwise dark oven with a pair of infra-red lamps. Click on the Franck-Hertz tube icon on the left of live feed to look at the circuit diagram.  Click on the tube photograph to the right of the live feed to see a close-up of the tube's components and their names.
 
 :::Figure:Figure
 
-![ScreenShot](imgs/ScreenShotTube.png)
+![ScreenShotTUBE](imgs/ScreenShotTube.png)
 
 :::
 
-The Pots camera looks down on a multimeter that measures $V_r$, on the right, and a control box, on the left.  The control box has a switch and knob that control the filament variac, and, near the bottom of the screen, two potentiometers that control $V_a$ and $V_r$.  
+The POTS camera looks down on a yellow multimeter that measures $V_r$, on the right, and a control box, on the left.  The control box has a switch and knob that control the filament variac, and, near the bottom of the screen, two potentiometers that control $V_a$ and $V_r$.  Surrounding the live feed are: a switch for toggling power to the filament (upper left), arrows for turning the filament variac knob (upper right), arrows for turning the $V_a$ pot (lower left) and arrows for turning the $V_r$ pot (lower right).  For each set of arrows, there is a set of radio buttons that determine the angular increment of one click.
 
 :::Figure:Figure
 
-![ScreenShot](imgs/ScreenShotPots.png)
+![ScreenShotPOTS](imgs/ScreenShotPots.png)
 
 :::
 
-
-TheData camera view is where most data collection will take place. Here you have an electrometer, a voltagesupply forVa, and a multimeter forVa. You can controlVausing the knob, turn on the power supply, andcontrol the electrometer settings.
-
-
-:::Exercise - Get familiar with the v
-### Center Video
-
-When you first open the portal the video feed will be dark.  
+The DATA camera looks at the (yellow) multimeter that measures $V_a$ and  the Keithley electrometer that measures current through the collection electrode.  In the lower left you can also see the DC power supply (lower left), the back of the oven variac (upper left) and the bottom half of the side of the oven that has a window in it (upper middle). To the left of the video feed are the arrows for turning the $V_a$ pot.  To the right are the arrows for turning  the filament variac knob.  
 
 :::Figure:Figure
-![ambientlight](imgs/Centervideo.png)
+
+![ScreenShotDATA](imgs/ScreenShotData.png)
+
 :::
 
-* Click on the central square of the switch in the upper right to turn on the background/ambient light. 
+Below the video feed are images of the faceplates of the DC power supply (left) and the Keithley electrometer (right).  The electrometer faceplate is actually a fully functioning interface!  Clicking on a button in the image will cause the device to respond exactly as if you had pressed the that button in person.
 
-The ambient light lets you observe the setup and better see the machinery respond to your clicks. You will want to check that it doesn't interfere with your measurements (or just switch it off while collecting data).
+:::Exercise 
+### Warming Up
 
-### Left Controls
+The first thing you'll want to do for this experiment is warm up the oven to raise the vapor pressure of the mercury (Hg) in the tube.  
 
-A toggle switch in the upper left controls the power to the Hg lamp. 
+* Go to the HEAT view.  
+* Click the red switch to power up the oven variac.  You should see the switch light up in the live feed.
+* Click the green arrows to turn the variac knob and thereby adjust the power to the oven. 
 
-:::Figure:Figure
-![lamp](imgs/Leftcontrols_lamp.png)
-:::
+The target temperature is in the $170^\circ$C – $190^\circ$C range, which corresponds to a vapor pressure of Hg of $\sim 1$ kPa. [[1]](https://www.govinfo.gov/content/pkg/GOVPUB-C13-66a1ade54071892930184393b1802e69/pdf/GOVPUB-C13-66a1ade54071892930184393b1802e69.pdf)
 
-* Click the image of the lamp immediately below the toggle switch to access the lamp's user manual.  
+* Set the knob to about “78” on the variac’s scale, to start. 
 
-:::Figure:Figure
-![graph](imgs/Leftcontrols_graph.png)
-:::
+Note that the thermal response time is large. It may take 10 - 15 minutes to warm up, and adjusting the variac knob will not cause an immediate change. It is best to make small changes and monitor frequently.
 
-* Click the plot below that to view a high-resolution image of the lamp's emission spectrum. 
+* As you work through the lab, monitor the oven temperature regularly and adjust accordingly.  
 
-:::Figure:Figure
-![filter](imgs/Leftcontrols_transmission.png)
-:::
+Next, you'll want to turn on all the other instruments, so they have time to warm up. 
 
-* Click the photo of a filter to view the transmission spectrum provided by its manufacturer.
+Most equipment has a "warm up" period. This is simply the time it takes for all the heat production and dissipation mechanisms to come to equilibrium so that the device's components remain at a constant temperature.  Variations in temperature can alter operational details of electronics, such as amplifier gains and leakage currents. The electrometer in particular has calibration circuitry that measures and corrects for most temperature dependent effects, but operating at a stable temperature still improves its precision. 
 
-::: Question
-Using the emission spectrum of the lamp and the transmission spectra of the filters, determine the dominant wavelength(s) of the photons that each filter lets through.
-:::
-
-:::Figure:Figure
-![filter2](imgs/Leftcontrols_filterwheel.png)
-:::
-
-* Click the corresponding filter in the filter wheel and watch the wheel rotate to put that particular filter in between the Hg lamp and the phototube.
-
-### Right Controls
-
-:::Figure:Figure
-![switch](imgs/switch.jpg)
-:::
-
-A pair of green arrows to the right of the video feed allows you to turn the potentiometer knob clockwise or counter-clockwise.  The amount of rotation corresponding to a single click is determined by selecting one of the three radio buttons above the arrows.
-
-::: Question
-How many full rotations are required to sweep through the entire range of the potentiometer? *Hint:* "limit is reached" will be displayed on the screen.
-
-What is the highest voltage you can apply?
-:::
-
-### Bottom Controls
-
-Along the bottom of the web-portal are images of the front panels of the electrometer (on the left) and the multimeter (on the right). 
-Each image is actually a fully functioning interface to the corresponding device!  
-Clicking on a button in the image will cause the device to respond exactly as if you had pressed the that button in person.
-
-* The first thing you should do when you start to work with the apparatus is turn on the meters so that they have time to warm up. 
-
-Most equipment has a "warm up" period, which is simply the time it takes for all the heat production and dissipation mechanisms to come to equilibrium so that the device's components remain at a constant temperature.  Variations in temperature can alter operational details of electronics, such as amplifier gains and leakage currents. The electrometer in particular has calibration circuitry that measures and corrects for most of these temperature dependent effects, but operating at a stable temperature still improves its precision. 
+* Go to the DATA view and turn on the electrometer.  
 
 The Keithley 6514 electrometer is central to your measurement, so you may be curious to understand its operation. 
-* Click on the red-lettered link above electrometer control panel and skim the user manual's table of contents.
+* Click on the manual coverpage above electrometer control panel and skim the user manual's table of contents.
 
 You will notice that the  electrometer can be used to measure voltage, current, resistance or charge. When powered on, it defaults to voltage measurement mode.  For this lab, current measurement is the only relevant capability. 
 
@@ -308,6 +268,93 @@ When Zero Check is enabled, the input signal is shorted so that the input amplif
 
 It is * **essential** * to repeat the zero correction procedure before making a measurement on a more sensitive scale than the last. The offset currents in the machine depend on the measurement scale.  If you correct the offsets at a less sensitive scale and then move to a more sensitive scale without repeating the zero correction procedure, the readings on the more sensitive scale will likley be incorrect because too large of an offest is being subtracted.
 :::
+
+:::Exercise
+### Prepare for measurement
+Once the oven temperature has stabilized at about $180^\circ$C, 
+
+* Go to the POTS view and set the retarding potential to 1.3 V.
+
+* Go to the DATA view and turn on the DC power supply by clicking the switch in the upper left hand corner of its faceplate.  You should see the needle of the left gauge move to the right in the live feed.
+* Still in the DATA view, rotate the $V_a$ potentiometer clockwise until the $V_a$ meter reads ~$40$ V.
+* Go to the POTS view, make sure the knob on the filament variac is set to zero (fully counter-clockwise), and turn on the filament.  You should see a light come on in the live feed. 
+* Back in the DATA view, slowly increase the power to the filament by turning filament variac  knob until you get a current reading on the electrometer that is between $0.75$ and $1.0$ nA.  Try not to go much beyond $1.0$ nA and, if you do, reduce the filament power to lower the current to just below $1.0$ nA.
+
+### Pay attention
+As you reduce $V_a$, the current you measure may exceed $1.0$ nA, but the current you measure when $V_a = 40$ V shouldn't.
+If you exceed $1$ nA before the filament variac knob has been turned more than about halfway, shut the filament off immediately and notify your TA.  This could indicate that the filament is overheating.
+:::
+
+Now that everything is on and functioning, you can begin making measurements.
+
+:::Exercise
+### Make a coarse measurement
+
+If you followed the directions described above, $V_a$ is set to the highest value (~$40$ V) you'll want to use.
+
+* Take a first round of data by reducing $V_a$ by ~0.5 V at a time and noting the electrometer current, $I$.  
+
+$\Rightarrow\Leftarrow$ 
+
+This is a coarse measurement, so don't bother waiting very long for the current to settle to a stable value.  Give it a few seconds and just jot its value down.
+
+* After you've collected a few dozen data points, in this crude way, plot your data.
+
+Write down salient details of what you notice in your logbook.
+Then go back to taking crude data until you get to $V_a = 0$ V.
+Again, plot your data and note any thoughts you have about it in your logbook.
+In particular, think about what clues this crude data offers for how you should go about taking precision data.
+:::
+
+:::Exercise
+
+### Make a more precise measurement
+Make your first pass at taking precision data by increasing $V_a$ while monitoring $I$.  
+
+It should increase at first, and then decrease after it crosses the point where electrons can excite mercury atoms. 
+Collect data that will let you identify the $V_a$ at which $I$ peaks.
+Make sure to describe your procedure for doing so in your logbook. 
+Then continue to increase $V_a$ and you should see that the current goes through a minimum. 
+Collect data that will let you identify the $V_a$ at which $I$ is its lowest.
+Again, make sure to describe your procedure for doing so in your logbook. 
+
+Continue to increase $V_a$ and similarly record the voltage and current for each of the subsequent peaks and minima 
+until you reach the maximum possible value of $V_a = 40$~V. 
+You should see about six cycles of current peaks and minima.
+
+In addition to recording near the peaks and minima, 
+you should record $I$ and $V_a$ at a few points between them. 
+This will allow you to make a plot of the full $I(V)$ curve that illustrates the overall behavior.
+:::
+
+Determine the first excitation energy of mercury. 
+Keep in mind that the absolute voltage is biased by potential offsets so, as explained in the introduction, 
+instead of using the voltage values directly, 
+you should use the differences between consecutive peaks or consecutive minima for your measurement.
+
+\subsection{Going Beyond}
+
+While you can obtain a measurement from a single scan, or even from just a couple peak positions, 
+it is always a good idea to measure things repeatedly. 
+Measuring the variation between multiple measurements helps to validate the results. 
+You would be wise to take more than one scan.
+:::
+
+### Right Controls
+
+:::Figure:Figure
+![switch](imgs/switch.jpg)
+:::
+
+A pair of green arrows to the right of the video feed allows you to turn the potentiometer knob clockwise or counter-clockwise.  The amount of rotation corresponding to a single click is determined by selecting one of the three radio buttons above the arrows.
+
+::: Question
+How many full rotations are required to sweep through the entire range of the potentiometer? *Hint:* "limit is reached" will be displayed on the screen.
+
+What is the highest voltage you can apply?
+:::
+
+
 
 Measurement
 -----------
