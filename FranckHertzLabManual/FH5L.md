@@ -43,9 +43,7 @@ When $eV_a$ reaches $2eV_1$, it becomes possible for an electron to undergo two 
 and be left with little energy when it reaches the anode. 
 This continues as the voltage is increased further; 
 we should see drops in the electrons' final kinetic energy 
-each time $V_a$ crosses an integer multiple of mercury's first excitation energy.
-
-Ask yourself: What happens if $V_1 < V_2 < 2V_1$?
+each time $V_a$ crosses an integer multiple of mercury's first excitation energy.[[1]](* What if $V_1 < V_2 < 2V_1$? Couldn't electrons lose $eV_2$ instead of $eV_1$?* Yes, in principle.  But the electrons are colliding with mercury atoms very frequently. Unless $V_2 \approx V_1$, it is very unlikely that they will manage to reach an energy of $eV_2$ before undergoing an inelastic collision and losing $eV_1$.) 
 
 There are two complications in the actual experiment. 
 First, it is not easy, or necessary, to directly measure the final kinetic energy of the electrons. 
@@ -57,13 +55,13 @@ Applying a retarding voltage, $V_r > V_a$, to that third electrode will allow on
 Ask yourself: Where will the other electrons go?
 
 Measuring the current collected by the third electrode tells us how many electrons have sufficient kinetic energy to reach it. 
-If any electrons lose kinetic energy as they travel from the cathode to the anode, there will be a drop in the current through the ``collection electrode''.
+If any electrons lose kinetic energy as they travel from the cathode to the anode, there will be a drop in the current through the "collection electrode''.
 
 The second complication is that the electrons don't have exactly zero kinetic energy or even zero potential energy when they leave the cathode.
 There are small offsets due to the contact potential of the electrodes (the thermionic emission of electrons from the cathode requires a small amount of energy, 
 similar to the work function of the metal that you encountered in measurements of the photoelectric effect.) 
 As a result, the value of $V_a$ when the first current drop occurs is not a good measure of $V_1$. 
-However, measuring the {\it difference in voltage between subsequent current drops} removes the bias and can be used to determine $V_1$.
+However, measuring the *difference in voltage between subsequent current drops* removes the bias and can be used to determine $V_1$.
 
 
 Instruments
@@ -161,11 +159,11 @@ Approach
 ---------------------
 Using the instruments above,** you will measure the potential difference between successive minima in the current that arrives at the collection eletrode as you vary the accerating voltage imposed between the anode and the cathode (as explained in the Background section).  **
 
-The web-portal for this experiment enables you to press and turn all the same buttons and knobs as you would in person, and observe the effects of your actions through four different live video feeds, each aimed at the apparatus from a different vantage point.  The video feed is displayed at the center of the portal.  Controls for the switches, knobs, and buttons are distributed around the video feed, along with links to helpful information.   A timer immediately above the video feed (in red) limits your time on the apparatus to 3 hours. When it runs out, the lab equipment will reset to its initial configuration.
+The web-portal for this experiment enables you to press and turn all the same buttons and knobs as you would in person, and observe the effects of your actions through four different live video feeds, each aimed at the apparatus from a different vantage point.  The video feed is displayed at the center of the portal.  Controls for the switches, knobs, and buttons are distributed around the video feed, along with links to helpful information.   A timer immediately above the video feed (in red) limits your time on the apparatus to three hours. When it runs out, the lab equipment will reset to its initial configuration.
 
 You can switch between different views of the apparatus by clicking on one of the four blue buttons immediately below the timer and above the display.  As the display changes, so do the the images and controls that surround it.
 
-The HEAT camera provides a top-down view of the large variac on the right, and of the oven on the left.  On top of the oven is the readout dial of a thermometer  that reports its internal temperature.  Around the live feed you will find a power switch you can click to turn the oven on and off and arrows you can click to turn the variac knob in either coarse or fine increments, as specified by the radio buttons.  
+The HEAT camera provides a top-down view of the large variac on the right, and of the oven on the left.  On top of the oven is the readout dial of a thermometer  that reports its internal temperature.  Around the live feed you will find a power switch you can click to turn the oven on and off and a pair of green arrows you can click to turn the variac knob clockwise or counter-clockwise.  The amount of rotation corresponding to a single click is determined by selecting one of the three radio buttons above the arrows. 
 
 :::Figure:Figure
 
@@ -188,6 +186,12 @@ The POTS camera looks down on a yellow multimeter that measures $V_r$, on the ri
 
 :::
 
+::: Question
+How many full rotations are required to sweep the $V_a$ potentiometer through its entire range? 
+
+How many full rotations are required to sweep the $V_r$ potentiometer through its entire range? 
+:::
+
 The DATA camera looks at the (yellow) multimeter that measures $V_a$ and  the Keithley electrometer that measures current through the collection electrode.  In the lower left you can also see the DC power supply (lower left), the back of the oven variac (upper left) and the bottom half of the side of the oven that has a window in it (upper middle). To the left of the video feed are the arrows for turning the $V_a$ pot.  To the right are the arrows for turning  the filament variac knob.  
 
 :::Figure:Figure
@@ -207,7 +211,7 @@ The first thing you'll want to do for this experiment is warm up the oven to rai
 * Click the red switch to power up the oven variac.  You should see the switch light up in the live feed.
 * Click the green arrows to turn the variac knob and thereby adjust the power to the oven. 
 
-The target temperature is in the $170^\circ$C – $190^\circ$C range, which corresponds to a vapor pressure of Hg of $\sim 1$ kPa. [[1]](https://www.govinfo.gov/content/pkg/GOVPUB-C13-66a1ade54071892930184393b1802e69/pdf/GOVPUB-C13-66a1ade54071892930184393b1802e69.pdf)
+The target temperature is in the $170^\circ$C – $190^\circ$C range, which corresponds to a vapor pressure of Hg of $\sim 1$ kPa. [[3]](https://www.govinfo.gov/content/pkg/GOVPUB-C13-66a1ade54071892930184393b1802e69/pdf/GOVPUB-C13-66a1ade54071892930184393b1802e69.pdf)
 
 * Set the knob to about “78” on the variac’s scale, to start. 
 
@@ -287,6 +291,8 @@ If you exceed $1$ nA before the filament variac knob has been turned more than a
 
 Now that everything is on and functioning, you can begin making measurements.
 
+Measurement
+-----------
 :::Exercise
 ### Make a coarse measurement
 
@@ -294,131 +300,117 @@ If you followed the directions described above, $V_a$ is set to the highest valu
 
 * Take a first round of data by reducing $V_a$ by ~0.5 V at a time and noting the electrometer current, $I$.  
 
-$\Rightarrow\Leftarrow$ 
 
 This is a coarse measurement, so don't bother waiting very long for the current to settle to a stable value.  Give it a few seconds and just jot its value down.
 
-* After you've collected a few dozen data points, in this crude way, plot your data.
+$\Rightarrow$**Make sure your data  is clearly tabulated.**
+$\Leftarrow$
 
-Write down salient details of what you notice in your logbook.
-Then go back to taking crude data until you get to $V_a = 0$ V.
-Again, plot your data and note any thoughts you have about it in your logbook.
-In particular, think about what clues this crude data offers for how you should go about taking precision data.
+
+* After you've collected a few dozen data points in this crude way, plot your data.
+
+$\Rightarrow$**It is NOT necessary to make a well-formatted plot at this stage.   A "quick and dirty" plot is all that's is needed.**
+$\Leftarrow$
+
+:::Question
+What are the most interesting/important features of the data in your plot?
+:::
+
+* Continue reducing $V_a$ and noting currents until $V_a = 0$ V.
+
+* Make sure to note in your table where the break in data taking occurred.
+
+* Make another "quick and dirty" plot of your data
+
+:::Question
+What are the most interesting/important features of the data in your plot now?
+:::
 :::
 
 :::Exercise
-
 ### Make a more precise measurement
-Make your first pass at taking precision data by increasing $V_a$ while monitoring $I$.  
+Now you are ready to measure the first excitation energy of Hg based on the intervals in $V_a$ at which electrons achieve enough energy to  excite a mercury atom.  
+:::Question
+Based on the crude data you just took, if you increase $V_a$ while monitoring $I$, at what value of $V_a$ do you expect to observe  the first peak in $I$?
 
-It should increase at first, and then decrease after it crosses the point where electrons can excite mercury atoms. 
-Collect data that will let you identify the $V_a$ at which $I$ peaks.
-Make sure to describe your procedure for doing so in your logbook. 
-Then continue to increase $V_a$ and you should see that the current goes through a minimum. 
-Collect data that will let you identify the $V_a$ at which $I$ is its lowest.
-Again, make sure to describe your procedure for doing so in your logbook. 
-
-Continue to increase $V_a$ and similarly record the voltage and current for each of the subsequent peaks and minima 
-until you reach the maximum possible value of $V_a = 40$~V. 
-You should see about six cycles of current peaks and minima.
-
-In addition to recording near the peaks and minima, 
-you should record $I$ and $V_a$ at a few points between them. 
-This will allow you to make a plot of the full $I(V)$ curve that illustrates the overall behavior.
+What do you expect to observe as you  continue to increase $V_a$ beyond that value?
 :::
 
-Determine the first excitation energy of mercury. 
+:::Question
+How will you collect data that will let you determine with good precision the value of $V_a$ at which $I$ first peaks?
+:::
+
+* Start increasing $V_a$ while monitoring $I$.
+
+* Collect data that will let you identify the value of $V_a$ at which $I$ first peaks.
+
+:::Question
+How will you collect data that will let you determine with good precision the value of $V_a$ at which $I$ first goes through a local minimum?
+:::
+
+* Continue increasing $V_a$ and collect data that will let you identify the value of $V_a$ at which $I$ first goes through a local minimum.
+
+$\Rightarrow$**Make sure your data  is clearly tabulated.**
+$\Leftarrow$
+ 
+* Continue to increase $V_a$ and similarly collect data that will let you identify the values of $V_a$ at which $I$ first goes through subsequent maxima and minima until you reach $V_a = 40$ V. 
+
+In addition to recording near the maxima and minima, you should record $I$ and $V_a$ at a few points between them. 
+This will allow you to make a plot of the full $I(V)$ curve that illustrates the overall behavior.
+
+:::
+
+:::Exercise
+### Determine the first excitation energy of Hg
+ 
 Keep in mind that the absolute voltage is biased by potential offsets so, as explained in the introduction, 
 instead of using the voltage values directly, 
 you should use the differences between consecutive peaks or consecutive minima for your measurement.
 
-\subsection{Going Beyond}
+* Plot $I(V_a)$. 
 
-While you can obtain a measurement from a single scan, or even from just a couple peak positions, 
-it is always a good idea to measure things repeatedly. 
-Measuring the variation between multiple measurements helps to validate the results. 
-You would be wise to take more than one scan.
-:::
-
-### Right Controls
-
-:::Figure:Figure
-![switch](imgs/switch.jpg)
-:::
-
-A pair of green arrows to the right of the video feed allows you to turn the potentiometer knob clockwise or counter-clockwise.  The amount of rotation corresponding to a single click is determined by selecting one of the three radio buttons above the arrows.
-
-::: Question
-How many full rotations are required to sweep through the entire range of the potentiometer? *Hint:* "limit is reached" will be displayed on the screen.
-
-What is the highest voltage you can apply?
-:::
-
-
-
-Measurement
------------
-
-There are four optical filters which only pass light in a narrow range of frequency. 
-By placing these different filters between the Hg lamp and the phototube (see Exercise 1, Left Controls), you can measure the phototube's response as a function of the light's frequency, $\nu$. 
-
-:::Exercise
-
-With a filter in place, adjust the impeding voltage, $V$, until the photocurrent, $I$, reaches zero; 
-the impeding voltage that stops all the current is the stopping voltage $V_s$. 
-To make a more precise measurement of $V_s$, you could measure $I$ as a function of $V$ and fit the data to obtain $V_s$. 
-* Take a quick, coarse scan to get an idea of the overall shape of $I(V)$. 
+  $\Rightarrow$**Make this a well-formatted plot! **$\Leftarrow$
 
 :::Question
-Which filter did you choose?  
+How many cycles of current peaks and minima did you see?
 :::
+Let $V^\mathrm{max}_n$ be the $n^\mathrm{th}$ value of $V_a$ at which $I$ goes through a maximum and $V^\mathrm{min}_n$ be the $n^\mathrm{th}$ value of $V_a$ at which $I$ goes through a minimum. 
 
 :::Question
-What is the overall shape of I(V)? 
-
-Answer in words only.  Use adjectives like {positive, negative, increasing, decreasing, linear, non-linear},  verbs like {approaches, crosses, saturates} and adverbs like {near, far, above, below, at}.
+How will you extract values for the $V^\mathrm{max}_n$ and the $V^\mathrm{min}_n$ from your data?
 :::
 
-* Decide on a set of voltages that seem appropriate for the filter you chose and record a table of $I(V)$ measurements.
+* Plot $V^\mathrm{max}_n$ and $V^\mathrm{min}_n$ vs. $n$
+
+  $\Rightarrow$**Make this a well-formatted plot! **$\Leftarrow$
+
+To calculate the first excitation energy of Mercury, $E^\mathrm{Hg}_\mathrm{1}$, you could:
+* fit a line to each series of $V_n$ and report the average of their slopes,  or
+* calculate the differences $\Delta = (V_i - V_j)/(i-j)$  for all $i,j\leq n$ and $i\neq j$ and report the average difference, or
+* come up with, and justify, another way.  
+
+Whatever you do, you will end up with a measurement in Volts, which you will have to multiply by the elemental charge, $e$, to get an energy (in eV).
 
 :::Question
-What is $V_s$ for the filter you chose?
-:::
+What approach will you use to  calculate $E^\mathrm{Hg}_\mathrm{1}$?
+
+What value will you use for $e$?
 :::
 
-:::Exercise
-* Repeat Exercise 3, answering all of the questions therein, for each of the remaining three filters.  
-* Make sure to use the same method for determining $V_s$ for every filter.
-:::Question
-How did you determine $V_s$?
-:::
-:::
+* Calculate the first excitation energy of Mercury, $E^\mathrm{Hg}_\mathrm{1}$.
 
-:::Exercise
-* Plot $V_s(\nu)$. $\Rightarrow$**Make this the well-formatted plot you submit for grading. **$\Leftarrow$
-* Fit your data to the equation 
-$$
-V_s =h\nu/e -\phi
-$$
-to obtain Planck's constant, $h$, and the work function, $\phi$, of the CsSb alloy. 
+The accepted value for the first excitation energy of Mercury can be read off the plot in Figure 2 (or in the paper from which that plot was taken). 
 :::Question
-What value did you use for $e$?
-:::
-The currently accepted value of Planck's constant is $h=(6.62606957 \pm 0.00000029)\times 10^{-34}~\mathrm{J s}$. [^3]
-:::Question
-How large a fraction of the accepted value is the discrepancy between your measurement of Planck's constant and the accepted value?
+How large a fraction of the accepted value is the discrepancy between your measurement and the accepted value?
 
 Calculate this *proportionate discrepancy* by taking the difference and dividing it by the accepted value:
 $$
-\frac{|h_\mathrm{measured}-h_\mathrm{accepted}|}{h_\mathrm{accepted}}\,.
+\frac{|E_\mathrm{1\,measured}-E_\mathrm{1\,accepted}|}{E_\mathrm{1\,accepted}}\,.
 $$
 Give your answer as a percentage.
 :::
 :::
 
-::: Exercise
-There are five ND filters which attenuate the light at all frequencies equally. By placing these different filters between the Hg lamp and the phototube (see Exercise 1, Left Controls), you can measure $V_s$ as a function of the light's intensity.
-::: Question
-Design and perform an experiment to measure $V_s$ as a function of intensity.
-:::
-:::
+[[1]]( *What if $V_1 < V_2 < 2V_1$? Couldn't electrons lose $eV_2$ instead of $eV_1$?*
+
+Yes, in principle.  But the electrons are colliding with mercury atoms very frequently. Unless $V_2 \approx V_1$, it is very unlikely that they will manage to reach an energy of $eV_2$ before undergoing an inelastic collision and losing $eV_1$.) 
