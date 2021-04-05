@@ -286,7 +286,7 @@ What is the overall shape of I(V)?
 Answer in words only.  Use adjectives like {positive, negative, increasing, decreasing, linear, non-linear},  verbs like {approaches, crosses, saturates} and adverbs like {near, far, above, below, at}.
 :::
 
-* Decide on a set of voltages that seem appropriate for the filter you chose and record a table of $I(V)$ measurements.
+* Decide on a set of voltages that seem appropriate for the filter you chose and record a table of $I(V)$ measurements. 
 
 :::Question
 What is $V_s$ for the filter you chose?
